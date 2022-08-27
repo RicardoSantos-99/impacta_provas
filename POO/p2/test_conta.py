@@ -1,7 +1,7 @@
 import pytest
 import re
 import os.path
-from POO.conta import Conta
+from POO.p2.conta import Conta
 
 
 def verifica_imports_inputs(arq="conta.py"):
@@ -251,7 +251,7 @@ def test_transferir(valor, checa_extrato, ativa_origem, ativa_destino):
     verifica_imports_inputs()
     try:
         saldo_inicial_1 = 400
-        c1 = Conta('Maria', 3000, 12345, saldo_inicial_1)
+        c1 = Conta('Maria', 3000, 1 2345, saldo_inicial_1)
         saldo_inicial_2 = 400
         c2 = Conta('Pedro', 4456, 92176, saldo_inicial_2)
     except Exception:

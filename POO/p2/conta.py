@@ -1,8 +1,3 @@
-# Programação Orientada a Objetos
-# AC02 POO-EaD - Implementação de classes
-#
-# Email Impacta: ricardo.csantos@aluno.faculdadeimpacta.com.br
-
 class Conta:
 
     def __init__(self, titular, agencia, numero, saldo_inicial):
