@@ -1,0 +1,21 @@
+.primeiro {
+  width: 500px;
+
+  height: 200px;
+
+  border: 15px solid blue;
+
+  background-color: yellow;
+}
+
+.segundo {
+  width: 500px;
+
+  height: 200px;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+
+  background-color: cyan;
+}
